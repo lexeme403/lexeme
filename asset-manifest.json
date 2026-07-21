@@ -6,8 +6,8 @@
   },
   {
     "path": "assets/css/style.css",
-    "size_bytes": 9896,
-    "sha256": "6682616941a1ca1d208df15001a6a114eb426d381078600af34bda13f93703b2"
+    "size_bytes": 10031,
+    "sha256": "6f3ed70d4cf1997a71cff03c18b0d79e6c5326352ad214181d5a8c1b3a4d22dc"
   },
   {
     "path": "assets/images/about-art.png",
@@ -23,6 +23,11 @@
     "path": "assets/images/autumn-cover.png",
     "size_bytes": 761459,
     "sha256": "49001ec947ed8012176bd7f77c8c7bca4ff06032d2f248b47beab6a24a2efa03"
+  },
+  {
+    "path": "assets/images/bale.png",
+    "size_bytes": 67399,
+    "sha256": "c51c462b643da767a245439f6862462791a6a956ba23cd738fe7b5a643221d67"
   },
   {
     "path": "assets/images/book-icon.png",
@@ -83,6 +88,11 @@
     "path": "assets/images/summer-cover.png",
     "size_bytes": 612277,
     "sha256": "4dcdc24ac80aaf8be1ba5dca1c132f19562f85c995e93ce04c6a9b85586620b8"
+  },
+  {
+    "path": "assets/images/telegram.png",
+    "size_bytes": 90073,
+    "sha256": "d0da79c1afe96c2b782e7f1305930a487c2eb01ae5f3375638e713fc70dfbce5"
   },
   {
     "path": "assets/images/winter-cover-large.png",
@@ -231,13 +241,13 @@
   },
   {
     "path": "autumn-2025.html",
-    "size_bytes": 3768,
-    "sha256": "56e1e94fabbef59570c2226f5f33cc5af8466012e255510b1311decfd49987d9"
+    "size_bytes": 5466,
+    "sha256": "803402f8b42d4439a823887083f174972610e08a81a913f61bea25c69f4a825a"
   },
   {
     "path": "home.html",
-    "size_bytes": 5291,
-    "sha256": "f6bc8299d0bee789c951648f2e51ceedf3343461a7bb46d5ba6602e05bcd4b79"
+    "size_bytes": 8487,
+    "sha256": "667b1bccda7a411992bbf72382b590338227bd32746d5e97e1d701638922b3ad"
   },
   {
     "path": "index.html",
@@ -246,17 +256,17 @@
   },
   {
     "path": "issues.html",
-    "size_bytes": 3335,
-    "sha256": "c5700ac984649697cc75a0a285f1f59dde812178d443b80b6abacf9aa557a9f2"
+    "size_bytes": 5197,
+    "sha256": "65820595e5107060c64af1adcf6cc2e1b672dbb2e15733b735e196a12d5fccfb"
   },
   {
     "path": "summer-2025.html",
-    "size_bytes": 3826,
-    "sha256": "d1fd4e52ab1b34369cef672aa10695658cd6bd65fa923ee387c2cbfcc964e558"
+    "size_bytes": 5524,
+    "sha256": "ebb7420714431238b43ba7cfb3606b49a045e5fd5751779db3397ff9e557bed5"
   },
   {
     "path": "winter-2026.html",
-    "size_bytes": 3702,
-    "sha256": "823679c97809f823415d936e6152ae43b14a7790aa1b03d71fa96b2b4264d609"
+    "size_bytes": 5400,
+    "sha256": "e071fb7d71839e249b404321774c6187b640d3034752388b63901ac392aa94b5"
   }
 ]
