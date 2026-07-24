@@ -8,6 +8,7 @@
         <script>document.documentElement.classList.add('js')</script>
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="assets/js/main.js" defer></script>
+        <script src="./assets/js/issues.js"></script>
     </head>
     <body>
         <header class="site-header">
@@ -45,34 +46,7 @@
                             <p>Each issue brings together critical perspectives and imaginative expression. The result is a blend of learning, creativity and thoughtful exploration shaped by student voices.</p>
                         </div>
                     </div>
-                    <div class="cards">
-                        <article class="issue-card reveal">
-                            <a href="summer-2025.html"><div class="issue-card-media">
-                                    <img src="assets/images/summer-cover.png" alt="Summer 2025">
-                                </div><div class="issue-card-body">
-                                    <div class="eyebrow">Issue No. 1</div>
-                                    <h3>Summer 2025</h3>
-                                    <span class="card-link">Open issue →</span>
-                                </div></a>
-                        </article>
-                        <article class="issue-card reveal">
-                            <a href="autumn-2025.html"><div class="issue-card-media">
-                                    <img src="assets/images/autumn-cover.png" alt="Autumn 2025">
-                                </div><div class="issue-card-body">
-                                    <div class="eyebrow">Issue No. 2</div>
-                                    <h3>Autumn 2025</h3>
-                                    <span class="card-link">Open issue →</span>
-                                </div></a>
-                        </article>
-                        <article class="issue-card reveal">
-                            <a href="winter-2026.html"><div class="issue-card-media">
-                                    <img src="assets/images/winter-cover.png" alt="Winter 2026">
-                                </div><div class="issue-card-body">
-                                    <div class="eyebrow">Issue No. 3</div>
-                                    <h3>Winter 2026</h3>
-                                    <span class="card-link">Open issue →</span>
-                                </div></a>
-                        </article>
+                    <div class="cards" id="issuesContainer">
                     </div>
                 </div>
             </section>
@@ -86,5 +60,6 @@
                 <p class="footer-note">A student cultural-educational Journal where language, ideas, and creativity come together.</p>
             </div>
         </footer>
+        <script>renderIssues("issues")</script>
     </body>
 </html>

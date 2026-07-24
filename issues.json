@@ -1,0 +1,53 @@
+[
+    {
+        "issueNo": 1,
+        "season": "Summer 2025",
+        "pages": 37,
+        "issueThumbnail": "summer-cover.png",
+        "issueCover": "summer-cover-large.png",
+        "download": "https://abrehamrahi.ir/o/public/60BYCLS8/",
+        "online": "https://drive.google.com/file/d/1AO2AypCOGeykkpychMojDDploLGtesK9/view?usp=drivesdk",
+        "intro": "The first issue: education, literature, culture and student creativity.",
+        "abstract": "This issue brings together educational discussions, literary explorations, student writing and creative reflections. From the philosophy of teaching and artificial intelligence to poetry, mythology, culture and time, each article offers a fresh perspective shaped by student voices.",
+        "insideList": [
+            "Philosophy of teaching and educational psychology",
+            "Artificial intelligence and language learning",
+            "Student poetry, mythology and literary movements",
+            "Culture, identity, nature and time"
+        ]
+    },
+    {
+        "issueNo": 2,
+        "season": "Autumn 2025",
+        "pages": 38,
+        "issueThumbnail": "autumn-cover.png",
+        "issueCover": "autumn-cover-large.png",
+        "download": "https://abrehamrahi.ir/o/public/dHA37GvM/",
+        "online": "https://drive.google.com/file/d/11Jg3a_74LuFwkkbwtE6dkiryAqGEHljz/view?usp=drivesdk",
+        "intro": "A second collection of learning, reflection, poetry and ideas.",
+        "abstract": "This issue brings together education, literature and creative reflection. It explores teaching philosophy, educational psychology, language learning, AI, resilience and legends, alongside literary movements, student poetry and mythology.",
+        "insideList": [
+            "Teaching philosophy and educational psychology",
+            "Language learning, AI and resilience",
+            "Literary movements, poetry and mythology",
+            "Culture, nature, time and the inner world"
+        ]
+    },
+    {
+        "issueNo": 3,
+        "season": "Winter 2026",
+        "pages": 38,
+        "issueThumbnail": "winter-cover.png",
+        "issueCover": "winter-cover-large.png",
+        "download": "https://abrehamrahi.ir/o/public/EVUZnJGK/",
+        "online": "https://drive.google.com/file/d/1hmE8oGrwDyUwgD3CQKNrqDvd0T-wDahT/view?usp=drivesdk",
+        "intro": "Teaching, AI, mythology, culture and the human experience.",
+        "abstract": "This issue explores education, language, literature and culture through inspiring articles on teaching, AI, literary movements, mythology, nature and human experiences.",
+        "insideList": [
+            "Teaching beyond the classroom walls",
+            "Language, artificial intelligence and learning",
+            "Literary movements, mythology and student writing",
+            "Nature, culture and human experience"
+        ]
+    }
+]

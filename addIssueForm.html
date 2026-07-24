@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Add New Issue To Lexeme</title>
+
+    <style>
+        body {
+            max-width: 900px;
+            margin: 40px auto;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            padding: 10px 18px;
+            cursor: pointer;
+        }
+
+        #result {
+            border: 2px dashed #208dbf;
+            padding: 15px;
+            white-space: pre-wrap;
+            margin-top: 20px;
+        }
+
+        .list-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Add New Issue</h1>
+
+    <label>Issue No</label>
+    <input id="issueNo" type="number" placeholder="4">
+
+    <br><br>
+
+    <label>Publishing Season</label>
+    <input id="season" type="text" placeholder="Spring 2026">
+
+    <br><br>
+
+    <label>Pages Count</label>
+    <input id="pages" type="number" placeholder="40">
+
+    <br><br>
+
+    <label>Issue Thumbnail</label>
+    <input id="issueThumbnail" type="text" placeholder="spring-cover.png">
+
+    <br><br>
+
+    <label>Issue Cover</label>
+    <input id="issueCover" type="text" placeholder="spring-cover-large.png">
+
+    <br><br>
+
+    <label>Download Link</label>
+    <input id="download" type="url">
+
+    <br><br>
+
+    <label>Read Online Link</label>
+    <input id="online" type="url">
+
+    <br><br>
+
+    <label>Introduction</label>
+    <textarea id="intro" rows="4"></textarea>
+
+    <br><br>
+
+    <label>Abstract</label>
+    <textarea id="abstract" rows="6"></textarea>
+
+    <br><br>
+
+    <label>Inside List</label>
+
+    <div id="insideListContainer"></div>
+
+    <button type="button" id="addListItemBtn">
+        + Add List Item
+    </button>
+
+    <br><br>
+
+    <button id="previewBtn">
+        Generate JSON
+    </button>
+
+    <h2>
+        Generated JSON (copy and paste it to the end of issues.json)
+    </h2>
+
+    <pre id="result"></pre>
+
+    <script>
+        async function loadNextIssueNo() {
+
+            try {
+
+                const response = await fetch("./issues.json");
+
+                if (!response.ok)
+                    throw new Error("Couldn't load issues.");
+
+                const issues = await response.json();
+
+                const nextIssueNo =
+                    Math.max(...issues.map(i => i.issueNo)) + 1;
+
+                const input = document.getElementById("issueNo");
+
+                input.value = nextIssueNo;
+
+                input.readOnly = true;
+
+            }
+            catch (err) {
+
+                console.error(err);
+
+            }
+
+        }
+
+        loadNextIssueNo();
+    </script>
+    <script>
+
+        const listContainer = document.getElementById("insideListContainer");
+
+        function addListItem(value = "") {
+
+            const wrapper = document.createElement("div");
+            wrapper.className = "list-item";
+
+            const input = document.createElement("input");
+            input.type = "text";
+            input.className = "insideListItem";
+            input.placeholder = "List item...";
+            input.value = value;
+
+            const removeButton = document.createElement("button");
+            removeButton.type = "button";
+            removeButton.textContent = "Remove";
+
+            removeButton.onclick = () => wrapper.remove();
+
+            wrapper.appendChild(input);
+            wrapper.appendChild(document.createElement("br"));
+            wrapper.appendChild(removeButton);
+
+            listContainer.appendChild(wrapper);
+
+        }
+
+        addListItem();
+        addListItem();
+        addListItem();
+        addListItem();
+
+        document.getElementById("addListItemBtn").addEventListener("click", () => {
+
+            addListItem();
+
+        });
+
+        document.getElementById("previewBtn").addEventListener("click", () => {
+
+            const insideList = [];
+
+            document.querySelectorAll(".insideListItem").forEach(item => {
+
+                if (item.value.trim() !== "")
+                    insideList.push(item.value.trim());
+
+            });
+
+            const issue = {
+
+                issueNo: Number(document.getElementById("issueNo").value),
+
+                season: document.getElementById("season").value,
+
+                pages: Number(document.getElementById("pages").value),
+
+                issueThumbnail: document.getElementById("issueThumbnail").value,
+
+                issueCover: document.getElementById("issueCover").value,
+
+                download: document.getElementById("download").value,
+
+                online: document.getElementById("online").value,
+
+                intro: document.getElementById("intro").value,
+
+                abstract: document.getElementById("abstract").value,
+
+                insideList: insideList
+
+            };
+
+            document.getElementById("result").textContent =
+                "," + JSON.stringify(issue, null, 4);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

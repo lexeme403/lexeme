@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Lexeme student cultural and educational magazine">
+    <title>Lexeme Issues</title>
+    <script>document.documentElement.classList.add('js')</script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" defer></script>
+    <script src="./assets/js/issues.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav">
+            <a class="brand" href="home.html#home"><img src="assets/images/logo.png"
+                    alt="Lexeme logo"><span>LEXEME</span></a>
+            <button class="menu-button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+            <nav class="nav-links" aria-label="Primary">
+                <a href="home.html#home">Home</a>
+                <a href="home.html#about">About</a>
+                <a href="issues.html">Issues</a>
+                <a href="home.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <section class="issue-detail-hero">
+            <div class="container issue-detail-grid">
+                <div class="detail-cover reveal" id="issueCoverContainer">
+                </div>
+                <div class="reveal" id="issueInfoContainer">
+                </div>
+            </div>
+        </section>
+        <section class="section inside">
+            <div class="container inside-grid">
+                <div class="inside-panel reveal">
+                    <div class="eyebrow">Contents</div>
+                    <h2 class="section-title serif">Inside this issue</h2>
+                    <p id="issueAbstractContainer"></p>
+                    <ul id="issueInsideContentContainer" class="inside-list">
+                    </ul>
+                </div>
+                <div class="reveal">
+                    <img src="assets/images/leaf-blue.png" alt="Decorative botanical illustration"
+                        style="max-height:520px;margin:auto;object-fit:contain">
+                </div>
+            </div>
+        </section>
+
+        <section class="section issues-section" id="issues">
+            <div class="container">
+                <div class="eyebrow">Quarterly collection</div>
+                <h2 class="section-title serif">Issues</h2>
+                <div class="cards" id="issuesContainer">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <div class="footer-brand">LEXEME</div>
+                <div>Where every word opens a new world.</div>
+            </div>
+            <p class="footer-note">A student cultural-educational Journal where language, ideas, and creativity come
+                together.</p>
+        </div>
+    </footer>
+    <script>renderIssues("singleIssue")</script>
+</body>
+
+</html>
