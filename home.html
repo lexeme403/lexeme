@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="Lexeme student cultural and educational magazine">
     <title>Lexeme — Home</title>
-    <script>document.documentElement.classList.add('js')</script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/main.js" defer></script>
+    <!-- <script>document.documentElement.classList.add('js')</script>
+    <script src="assets/js/main.js" defer></script> -->
     <script src="./assets/js/issues.js"></script>
 </head>
 <body>
@@ -23,11 +23,13 @@
             </nav>
         </div>
     </header>
+    
     <main id="home">
         <section class="hero section">
             <div class="container hero-grid" id="latestIssueContainer">
             </div>
         </section>
+        
         <section class="section issues-section" id="issues">
             <div class="container">
                 <div class="eyebrow">Quarterly collection</div>
@@ -36,6 +38,7 @@
                 </div>
             </div>
         </section>
+        
         <section class="section about" id="about">
             <div class="container about-grid">
                 <div class="about-art reveal">
@@ -94,6 +97,7 @@
                 <p class="footer-note">A student cultural-educational Journal where language, ideas, and creativity come together.</p>
         </div>
     </footer>
+
     <script>renderIssues("home")</script>
 </body>
 </html>
