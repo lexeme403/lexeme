@@ -27,7 +27,7 @@ async function renderIssues(page) {
 }
 function renderSingleIssue(issue) {
     let container = document.getElementById("issueCoverContainer");
-    container.innerHTML = `<img src="assets/images/${issue.issueCover}" alt="Lexeme ${issue.season} magazine cover">`
+    container.innerHTML = `<img src="assets/images/${issue.issueNo}/${issue.issueCover}" alt="Lexeme ${issue.season} magazine cover">`
 
     container = document.getElementById("issueInfoContainer");
     container.innerHTML = `<div class="eyebrow">Issue No. ${issue.issueNo}</div>
@@ -73,7 +73,7 @@ function renderHeroIssue(issue) {
                         </div>
                     </div>
                     <div class="hero-cover reveal">
-                        <img src="assets/images/${issue.issueCover}" alt="Lexeme ${issue.season} cover">
+                        <img src="assets/images/${issue.issueNo}/${issue.issueCover}" alt="Lexeme ${issue.season} cover">
                     </div>
         `
 }
@@ -85,7 +85,7 @@ function renderAllIssues(issues) {
         container.innerHTML += `
             <article class="issue-card reveal">
                 <a href="issue.html?issue=${issue.issueNo}"><div class="issue-card-media">
-                <img src="assets/images/${issue.issueThumbnail}" alt="${issue.season} cover">
+                <img src="assets/images/${issue.issueNo}/${issue.issueThumbnail}" alt="${issue.season} cover">
                 </div><div class="issue-card-body">
                     <div class="eyebrow">Issue No. ${issue.issueNo}</div>
                     <h3>${issue.season}</h3>

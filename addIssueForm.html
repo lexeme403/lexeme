@@ -114,6 +114,7 @@
     <pre id="result"></pre>
 
     <script>
+        let issuesOldContent
         async function loadNextIssueNo() {
 
             try {
@@ -124,7 +125,8 @@
                     throw new Error("Couldn't load issues.");
 
                 const issues = await response.json();
-
+                issuesOldContent = issues;
+                console.log(issuesOldContent)
                 const nextIssueNo =
                     Math.max(...issues.map(i => i.issueNo)) + 1;
 
@@ -220,9 +222,12 @@
 
             };
 
-            document.getElementById("result").textContent =
-                "," + JSON.stringify(issue, null, 4);
+            const oldJson = JSON.stringify(issuesOldContent, null, 4);
 
+            document.getElementById("result").textContent =
+                oldJson.slice(0, -1) + "," +
+                JSON.stringify(issue, null, 4) +
+                "\n]";
         });
 
     </script>
