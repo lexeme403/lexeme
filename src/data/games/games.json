@@ -1,0 +1,23 @@
+[
+    {
+        "gameID": 1,
+        "issueID": 1,
+        "gameType": "Mystery",
+        "gameTitle": "Art Gallery Thief Mystery",
+        "gameCreator": "Narjes Khademi"
+    },
+    {
+        "gameID": 2,
+        "issueID": 2,
+        "gameType": "SpotDifference",
+        "gameTitle": "Spot The Differences!",
+        "gameCreator": "Eliana Hashemi"
+    },
+    {
+        "gameID": 3,
+        "issueID": 6,
+        "gameType": "WordSearchPuzzle",
+        "gameTitle": "Can you find them?",
+        "gameCreator": "Mobina Ranjbar"
+    }
+]

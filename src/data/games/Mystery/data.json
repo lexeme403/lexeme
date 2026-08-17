@@ -1,0 +1,24 @@
+[
+    {
+        "gameID": 1,
+        "explanation": [
+            "After a local art theft, six suspects were interviewed. Below is a summary of their statements. Police knew that exactly four of them told one lie each, and all the other statements were true.",
+            "Billie said: It wasn't Alex. It wasn't Chris. It wasn't Emery.",
+            "Alex said: It wasn't Billie. It wasn't Drew. It wasn't Emery.",
+            "Chris said: It wasn't Billie. It wasn't Frankie. It wasn't Emery.",
+            "Frankie said: It wasn't Chris. It wasn't Drew. It wasn't Alex.",
+            "Drew said: It wasn't Alex. It wasn't Frankie. It wasn't Chris. ",
+            "Emery said: It wasn't Chris. It wasn't Drew. It wasn't Frankie."
+        ],
+        "question":"From this information, can you tell who committed the crime?",
+        "answers": [
+            "Billie",
+            "Alex",
+            "Chris",
+            "Frankie",
+            "Drew",
+            "Emery"
+        ],
+        "correctAnswer": "Chris"
+    }
+]

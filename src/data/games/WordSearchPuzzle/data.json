@@ -1,0 +1,103 @@
+[{
+    "gameID": 3,
+    "grid": [
+        ["Y", "M", "R", "B", "D", "G", "W", "O", "J", "P", "J", "R", "M", "R", "Q", "G", "S", "G"],
+        ["I", "J", "S", "F", "C", "R", "M", "G", "S", "A", "S", "W", "X", "L", "N", "E", "M", "H"],
+        ["A", "A", "N", "T", "I", "G", "O", "N", "E", "I", "N", "A", "O", "Q", "M", "P", "U", "R"],
+        ["R", "H", "S", "S", "T", "H", "E", "B", "E", "S", "R", "I", "E", "F", "N", "I", "L", "K"],
+        ["E", "W", "O", "F", "B", "F", "C", "P", "Q", "Q", "D", "I", "E", "C", "A", "A", "M", "K"],
+        ["Q", "N", "D", "X", "U", "Y", "Z", "N", "H", "D", "Z", "X", "S", "H", "B", "A", "N", "C"],
+        ["L", "S", "C", "A", "F", "F", "O", "L", "D", "I", "N", "G", "C", "N", "E", "U", "C", "B"],
+        ["J", "A", "N", "V", "A", "N", "H", "O", "V", "E", "V", "G", "L", "G", "G", "N", "Q", "D"],
+        ["D", "Z", "J", "N", "K", "I", "O", "Z", "B", "V", "X", "Z", "W", "O", "H", "U", "G", "U"],
+        ["O", "Y", "H", "T", "Q", "B", "D", "E", "G", "X", "R", "S", "U", "E", "V", "I", "L", "E"],
+        ["G", "N", "E", "U", "R", "O", "S", "C", "I", "E", "N", "C", "E", "J", "U", "S", "E", "F"],
+        ["Y", "E", "D", "O", "S", "N", "H", "T", "Y", "K", "Z", "O", "S", "F", "W", "A", "W", "E"]
+    ],
+    "answers": [
+        {
+            "word": "ANTIGONE",
+            "start": {
+                "row": 3,
+                "col": 2
+            },
+            "end": {
+                "row": 3,
+                "col": 9
+            },
+            "direction": "E"
+        },
+        {
+            "word": "THEBES",
+            "start": {
+                "row": 4,
+                "col": 5
+            },
+            "end": {
+                "row": 4,
+                "col": 10
+            },
+            "direction": "E"
+        },
+        {
+            "word": "SCAFFOLDING",
+            "start": {
+                "row": 7,
+                "col": 2
+            },
+            "end": {
+                "row": 7,
+                "col": 12
+            },
+            "direction": "E"
+        },
+        {
+            "word": "OSIRIS",
+            "start": {
+                "row": 1,
+                "col": 8
+            },
+            "end": {
+                "row": 6,
+                "col": 13
+            },
+            "direction": "SE"
+        },
+        {
+            "word": "JANI",
+            "start": {
+                "row": 1,
+                "col": 9
+            },
+            "end": {
+                "row": 4,
+                "col": 12
+            },
+            "direction": "SE"
+        },
+        {
+            "word": "JANVANHOVE",
+            "start": {
+                "row": 8,
+                "col": 1
+            },
+            "end": {
+                "row": 8,
+                "col": 10
+            },
+            "direction": "E"
+        },
+        {
+            "word": "NEUROSCIENCE",
+            "start": {
+                "row": 11,
+                "col": 2
+            },
+            "end": {
+                "row": 11,
+                "col": 13
+            },
+            "direction": "E"
+        }
+    ]
+}]

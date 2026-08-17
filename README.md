@@ -11,24 +11,29 @@ Lexeme is a magazine made by students. In this website we share its publication 
 
 # structure
 ```
-└───assets
-    ├───css
-    ├───images
-    │   ├───1
-    │   ├───2
-    │   ├───3
-    │   ├───4
-    │   └───5
-    ├───js
-    └───original-media
+├───node_modules
+├───public
+└───src
+    ├───assets
+    │   └───images
+    ├───components
+    │   └───games
+    ├───data
+    │   └───games
+    │       ├───Mystery
+    │       └───SpotDifference
+    └───styling
+        └───games
+        └───style.css
 ```
 
 # flow diagram
 index -> home -> issues -> issue #
+index -> home -> games -> game #
 
 # tasks
 - [x] connect to github & cloudflare
 - [x] make issues dynamic
-- [ ] refactor to react
-- [ ] add games
+- [x] refactor to react
+- [x] add games
 - [ ] add caching system 

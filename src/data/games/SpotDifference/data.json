@@ -1,0 +1,75 @@
+[
+    {
+        "gameID": 2,
+        "image1": "2/1.jpg",
+        "image2": "2/2.jpg",
+        "answers": [
+            {
+                "x": 37,
+                "y": 0,
+                "width": 6,
+                "height": 16
+            },
+            {
+                "x": 53,
+                "y": 3,
+                "width": 6,
+                "height": 11
+            },
+            {
+                "x": 4,
+                "y": 29,
+                "width": 7,
+                "height": 13
+            },
+            {
+                "x": 8,
+                "y": 60,
+                "width": 7,
+                "height": 11
+            },
+            {
+                "x": 30,
+                "y": 52,
+                "width": 11,
+                "height": 11
+            },
+            {
+                "x": 85,
+                "y": 49,
+                "width": 14,
+                "height": 22
+            },
+            {
+                "x": 54,
+                "y": 84,
+                "width": 11,
+                "height": 10
+            },
+            {
+                "x": 74,
+                "y": 6,
+                "width": 7,
+                "height": 16
+            },
+            {
+                "x": 70,
+                "y": 69,
+                "width": 10,
+                "height": 9
+            },
+            {
+                "x": 56,
+                "y": 55,
+                "width": 8,
+                "height": 9
+            },
+            {
+                "x": 15,
+                "y": 8,
+                "width": 8,
+                "height": 26
+            }
+        ]
+    }
+]
