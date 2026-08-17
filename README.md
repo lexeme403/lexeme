@@ -11,20 +11,23 @@ Lexeme is a magazine made by students. In this website we share its publication 
 
 # structure
 ```
-├───node_modules
 ├───public
+│   └───assets
+│       └───images
 └───src
     ├───assets
-    │   └───images
     ├───components
-    │   └───games
+    │   ├───games
+    │   └───issues
     ├───data
     │   └───games
     │       ├───Mystery
-    │       └───SpotDifference
+    │       ├───SpotDifference
+    │       └───WordSearchPuzzle
+    ├───layouts
+    ├───pages
     └───styling
         └───games
-        └───style.css
 ```
 
 # flow diagram

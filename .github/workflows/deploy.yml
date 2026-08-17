@@ -1,0 +1,63 @@
+name: Deploy Lexeme to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Get the Lexeme source code
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      # 2. Install Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+          cache: npm
+
+      # 3. Install dependencies
+      # node_modules is created here temporarily.
+      # It is NOT stored in your GitHub repository.
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Build the React/Vite application
+      # This creates the dist/ folder.
+      - name: Build Lexeme
+        run: npm run build
+
+      # 5. Configure GitHub Pages
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v6
+
+      # 6. Upload the Vite dist/ folder
+      - name: Upload build artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: "./dist"
+
+      # 7. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
