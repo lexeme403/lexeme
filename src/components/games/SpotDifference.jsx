@@ -16,7 +16,7 @@ function SpotDifference({ game }) {
     return (
       <div className="spot-image-wrapper">
         <img
-          src={`/src/data/games/SpotDifference/${image}`}
+          src={`../data/games/SpotDifference/${image}`}
           alt={`Spot the difference ${imageIndex + 1}`}
           className="spot-image"
         />

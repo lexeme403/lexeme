@@ -64,7 +64,7 @@ function IssuesPage() {
                         <h1 className="section-title serif">Issues</h1>
                         <p className="lead">Educational, literary and general-interest writing created around learning, language, culture and creativity.</p>
                     </div>
-                    <img className="decor reveal" src="/assets/images/leaf-purple.png" alt="Decorative leaf" />
+                    <img className="decor reveal" src="assets/images/leaf-purple.png" alt="Decorative leaf" />
                 </div>
             </section>
             <section className="section">

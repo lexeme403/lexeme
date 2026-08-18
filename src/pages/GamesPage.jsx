@@ -82,7 +82,7 @@ function GamesPage() {
 
                     <img
                         className="decor reveal"
-                        src="/assets/images/leaf-purple.png"
+                        src="assets/images/leaf-purple.png"
                         alt="Decorative leaf"
                     />
 
