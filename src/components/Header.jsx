@@ -4,10 +4,11 @@ function Header() {
   return (
     <header className="site-header">
       <div className="container nav">
-        <a className="brand" href="home">
-          <img src="/assets/images/logo.png" alt="Lexeme logo"/>
+
+        <Link to={`/home`} className="brand">
+          <img src="assets/images/logo.png" alt="Lexeme logo" />
           <span>LEXEME</span>
-        </a>
+        </Link>
 
         <button
           className="menu-button"
@@ -18,11 +19,11 @@ function Header() {
         </button>
 
         <nav className="nav-links" aria-label="Primary">
-          <Link to={`/home`}>Home</Link>
-          <Link to={`/issues`}>Issues</Link>
-          <Link to={`/games`}>Games</Link>
-          <Link to={`/about`}>About</Link>
-          <Link to={`/contact`}>Contact</Link>
+          <Link to="/home">Home</Link>
+          <Link to="/issues">Issues</Link>
+          <Link to="/games">Games</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
       </div>
     </header>
