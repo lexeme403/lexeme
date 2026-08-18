@@ -16,11 +16,11 @@ function Header() {
         </button>
 
         <nav className="nav-links" aria-label="Primary">
-          <a href="/home">Home</a>
-          <a href="/issues">Issues</a>
-          <a href="/games">Games</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
+          <Link to={`/home`}>Home</Link>
+          <Link to={`/issues`}>Issues</Link>
+          <Link to={`/games`}>Games</Link>
+          <Link to={`/about`}>About</Link>
+          <Link to={`/contact`}>Contact</Link>
         </nav>
       </div>
     </header>
