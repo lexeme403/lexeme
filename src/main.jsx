@@ -9,7 +9,7 @@ import "./styling/menu.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/lexeme">
             <App />
         </BrowserRouter>
     </React.StrictMode>
