@@ -11,7 +11,7 @@ function SingleIssue({ issue }) {
                     <div className="container issue-detail-grid">
                         <div className="detail-cover reveal" id="issueCoverContainer">
                             <img
-                                src={`assets/images/${issue.issueNo}/${issue.issueCover}`}
+                                src={`${import.meta.env.BASE_URL}assets/images/${issue.issueNo}/${issue.issueCover}`}
                                 alt={`Lexeme ${issue.season} magazine cover`}
                             />
                         </div>
@@ -92,7 +92,7 @@ function SingleIssue({ issue }) {
                             </ul>
                         </div>
                         <div className="reveal">
-                            <img src="assets/images/leaf-blue.png" alt="Decorative botanical illustration" 
+                            <img src={`${import.meta.env.BASE_URL}assets/images/leaf-blue.png`} alt="Decorative botanical illustration" 
                             style={{"max-height":"520px",
                                 "margin":"auto",
                                 "object-fit":"contain"}}

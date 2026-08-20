@@ -21,7 +21,7 @@ function Issues({ issues }) {
                                 <div className="issue-card-media">
 
                                     <img
-                                        src={`assets/images/${issue.issueNo}/${issue.issueThumbnail}`}
+                                        src={`${import.meta.env.BASE_URL}assets/images/${issue.issueNo}/${issue.issueThumbnail}`}
                                         alt={`${issue.season} cover`}
                                     />
 
