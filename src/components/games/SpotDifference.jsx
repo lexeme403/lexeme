@@ -16,7 +16,7 @@ function SpotDifference({ game }) {
     return (
       <div className="spot-image-wrapper">
         <img
-          src={`../data/games/SpotDifference/${image}`}
+          src={`${import.meta.env.BASE_URL}assets/images/games/${game.gameID}/${image}`}
           alt={`Spot the difference ${imageIndex + 1}`}
           className="spot-image"
         />

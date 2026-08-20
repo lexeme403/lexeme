@@ -1,8 +1,8 @@
 [
     {
         "gameID": 2,
-        "image1": "2/1.jpg",
-        "image2": "2/2.jpg",
+        "image1": "1.jpg",
+        "image2": "2.jpg",
         "answers": [
             {
                 "x": 37,
