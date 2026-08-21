@@ -8,7 +8,8 @@ import Issues from "../components/issues/Issues.jsx";
 
 
 function SingleIssuePage() {
-
+    window.scrollTo(0, 0);
+    
     const { id } = useParams();
 
     const [issue, setIssue] = useState(null);

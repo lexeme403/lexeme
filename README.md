@@ -14,8 +14,8 @@ Lexeme is a magazine made by students. In this website we share its publication 
 ├───public
 │   └───assets
 │       └───images
+│           └───games
 └───src
-    ├───assets
     ├───components
     │   ├───games
     │   └───issues
@@ -32,6 +32,7 @@ Lexeme is a magazine made by students. In this website we share its publication 
 
 # flow diagram
 index -> home -> issues -> issue #
+<br />
 index -> home -> games -> game #
 
 # tasks

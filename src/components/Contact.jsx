@@ -10,10 +10,10 @@ function Contact() {
                         <a className="contact-item" href="mailto:lexemecfu@gmail.com"><span>@</span><span><strong>Email</strong><br />lexemecfu@gmail.com</span></a>
                         <a className="contact-item" href="https://t.me/LexemeCfuadmin" target="_blank" rel="noopener"><span className="contact-icon"><img src="assets/images/telegram.png" alt="" /></span><span><strong>Telegram username</strong><br />@LexemeCfuAdmin</span></a>
                         <a className="contact-item" href="https://t.me/LexemeCfu" target="_blank" rel="noopener"><span className="contact-icon"><img src="assets/images/telegram.png" alt="" /></span><span><strong>Telegram channel</strong><br />@LexemeCfu</span></a>
-                        <div className="contact-item">
+                        <a className="contact-item" href="https://ble.ir/lexemecfu/" target="_blank" rel="noopener">
                             <span className="contact-icon contact-icon--bale"><img src="assets/images/bale.png" alt="" /></span>
                             <span><strong>Bale channel</strong><br />@LexemeCfu</span>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div className="contact-art reveal">
