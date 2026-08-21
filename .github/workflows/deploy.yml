@@ -46,6 +46,8 @@ jobs:
       # This creates the dist/ folder.
       - name: Build Lexeme
         run: npm run build
+        env:
+          VITE_DEPLOY_TARGET: github
 
       # 5. Configure GitHub Pages
       - name: Setup GitHub Pages
