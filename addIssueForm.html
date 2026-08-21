@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Add New Issue To Lexeme</title>
-
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <style>
         body {
             max-width: 900px;
@@ -119,14 +119,14 @@
 
             try {
 
-                const response = await fetch("./issues.json");
+                const response = await fetch("src/data/issues.json");
 
                 if (!response.ok)
                     throw new Error("Couldn't load issues.");
 
                 const issues = await response.json();
                 issuesOldContent = issues;
-                console.log(issuesOldContent)
+
                 const nextIssueNo =
                     Math.max(...issues.map(i => i.issueNo)) + 1;
 
