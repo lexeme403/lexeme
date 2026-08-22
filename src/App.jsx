@@ -8,6 +8,7 @@ import IssuesPage from "./pages/IssuesPage.jsx";
 import SingleIssuePage from "./pages/SingleIssuePage.jsx";
 import GamesPage from "./pages/GamesPage.jsx";
 import SingleGamePage from "./pages/SingleGamePage.jsx";
+import AddIssueForm from "./pages/AddIssueForm.jsx";
 
 import MainLayout from "./layouts/MainLayout.jsx";
 
@@ -63,6 +64,11 @@ function App() {
                 <Route
                     path="/games/:id"
                     element={<SingleGamePage />}
+                />
+
+                <Route
+                    path="/admin/add-issue"
+                    element={<AddIssueForm />}
                 />
 
             </Route>
