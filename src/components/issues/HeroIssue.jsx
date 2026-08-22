@@ -45,7 +45,7 @@ function HeroIssue({ issue }) {
             <div className="hero-cover reveal">
 
                 <img
-                    src={`assets/images/${issue.issueNo}/${issue.issueCover}`}
+                    src={`assets/images/issues/${issue.issueCover}`}
                     alt={`Lexeme ${issue.season} cover`}
                 />
 

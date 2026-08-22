@@ -11,7 +11,7 @@ function SingleIssue({ issue }) {
                     <div className="container issue-detail-grid">
                         <div className="detail-cover reveal" id="issueCoverContainer">
                             <img
-                                src={`${import.meta.env.BASE_URL}assets/images/${issue.issueNo}/${issue.issueCover}`}
+                                src={`${import.meta.env.BASE_URL}assets/images/issues/${issue.issueCover}`}
                                 alt={`Lexeme ${issue.season} magazine cover`}
                             />
                         </div>

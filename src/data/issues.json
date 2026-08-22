@@ -3,8 +3,8 @@
         "issueNo": 1,
         "season": "Summer 2025",
         "pages": 37,
-        "issueThumbnail": "summer-cover.png",
-        "issueCover": "summer-cover-large.png",
+        "issueThumbnail": "1-1.png",
+        "issueCover": "1-2.png",
         "download": "https://abrehamrahi.ir/o/public/60BYCLS8/",
         "online": "https://drive.google.com/file/d/1AO2AypCOGeykkpychMojDDploLGtesK9/view?usp=drivesdk",
         "intro": "The first issue: education, literature, culture and student creativity.",
@@ -20,8 +20,8 @@
         "issueNo": 2,
         "season": "Autumn 2025",
         "pages": 38,
-        "issueThumbnail": "autumn-cover.png",
-        "issueCover": "autumn-cover-large.png",
+        "issueThumbnail": "2-1.png",
+        "issueCover": "2-2.png",
         "download": "https://abrehamrahi.ir/o/public/dHA37GvM/",
         "online": "https://drive.google.com/file/d/11Jg3a_74LuFwkkbwtE6dkiryAqGEHljz/view?usp=drivesdk",
         "intro": "A second collection of learning, reflection, poetry and ideas.",
@@ -37,8 +37,8 @@
         "issueNo": 3,
         "season": "Winter 2026",
         "pages": 38,
-        "issueThumbnail": "winter-cover.png",
-        "issueCover": "winter-cover-large.png",
+        "issueThumbnail": "3-1.png",
+        "issueCover": "3-1.png",
         "download": "https://abrehamrahi.ir/o/public/EVUZnJGK/",
         "online": "https://drive.google.com/file/d/1hmE8oGrwDyUwgD3CQKNrqDvd0T-wDahT/view?usp=drivesdk",
         "intro": "Teaching, AI, mythology, culture and the human experience.",
@@ -51,36 +51,53 @@
         ]
     },
     {
-    "issueNo": 4,
-    "season": "Winter special 2026",
-    "pages": 12,
-    "issueThumbnail": "Winter-special-2026.png",
-    "issueCover": "Winter-special-2026.png",
-    "download": " https://abrehamrahi.ir/o/public/BqLXvOIL/",
-    "online": "https://drive.google.com/file/d/1L1Envb1TJS6xMnLTpWZDp21Wg85nlWed/view?usp=sharing ",
-    "intro": "faith through questioning, personal growth, and social connection, highlighting the values that shape our understanding of ourselves and others.",
-    "abstract": "This special issue of Ravieh explores the different dimensions of faith and its role in shaping human identity, personal growth, and social responsibility. Rather than viewing faith as a fixed concept, the issue presents it as a journey of reflection, questioning, and deeper understanding.",
-    "insideList": [
-        "Exploring faith through questions, reflection, and deeper understanding.",
-        "Discovering how faith extends beyond the self and connects with others.",
-        "Highlighting the hidden values and lessons that shape our lives."
+        "issueNo": 4,
+        "season": "Winter special 2026",
+        "pages": 12,
+        "issueThumbnail": "4-1.png",
+        "issueCover": "4-1.png",
+        "download": " https://abrehamrahi.ir/o/public/BqLXvOIL/",
+        "online": "https://drive.google.com/file/d/1L1Envb1TJS6xMnLTpWZDp21Wg85nlWed/view?usp=sharing ",
+        "intro": "faith through questioning, personal growth, and social connection, highlighting the values that shape our understanding of ourselves and others.",
+        "abstract": "This special issue of Ravieh explores the different dimensions of faith and its role in shaping human identity, personal growth, and social responsibility. Rather than viewing faith as a fixed concept, the issue presents it as a journey of reflection, questioning, and deeper understanding.",
+        "insideList": [
+            "Exploring faith through questions, reflection, and deeper understanding.",
+            "Discovering how faith extends beyond the self and connects with others.",
+            "Highlighting the hidden values and lessons that shape our lives."
         ]
     },
     {
-    "issueNo": 5,
-    "season": "Spring 2026",
-    "pages": 17,
-    "issueThumbnail": "Lexeme-spring2026special-cover.png",
-    "issueCover": "Lexeme-spring2026special-cover.png",
-    "download": "https://abrehamrahi.ir/o/public/fDAW9ju1/",
-    "online": "https://drive.google.com/file/d/1P9S9lo0l_3Q_IZEJR4qStzrdBYZVEHBr/view?usp=sharing",
-    "intro": "Exploring the memories of war, the voices of lost students, and the lessons carried through generations.",
-    "abstract": "This spring special issue reflects on the memories of conflict and its impact on children, education, and communities. Through the story of Minab’s students and the legacy of Rais-Ali Delvari, it explores themes of remembrance, resilience, and the lessons history leaves behind.",
-    "insideList": [
-        "Remembering the students of Minab and the stories behind empty classrooms.",
-        "Reflecting on resilience, remembrance, and historical lessons.",
-        "Exploring the impact of conflict on childhood, education, and collective memory.",
-        "and more...."
-    ]
-}
+        "issueNo": 5,
+        "season": "Spring 2026",
+        "pages": 17,
+        "issueThumbnail": "5-1.png",
+        "issueCover": "5-1.png",
+        "download": "https://abrehamrahi.ir/o/public/fDAW9ju1/",
+        "online": "https://drive.google.com/file/d/1P9S9lo0l_3Q_IZEJR4qStzrdBYZVEHBr/view?usp=sharing",
+        "intro": "Exploring the memories of war, the voices of lost students, and the lessons carried through generations.",
+        "abstract": "This spring special issue reflects on the memories of conflict and its impact on children, education, and communities. Through the story of Minab’s students and the legacy of Rais-Ali Delvari, it explores themes of remembrance, resilience, and the lessons history leaves behind.",
+        "insideList": [
+            "Remembering the students of Minab and the stories behind empty classrooms.",
+            "Reflecting on resilience, remembrance, and historical lessons.",
+            "Exploring the impact of conflict on childhood, education, and collective memory.",
+            "and more...."
+        ]
+    },
+    {
+        "issueNo": 6,
+        "season": "Summer 2026",
+        "pages": "?? ",
+        "issueThumbnail": "6-coming-soon.png",
+        "issueCover": "6-coming-soon.png",
+        "download": "#",
+        "online": "#",
+        "intro": "Coming Soon!",
+        "abstract": "Coming soon! Just wait a little bit!",
+        "insideList": [
+            "Lots",
+            "of",
+            "fun",
+            "stuff!"
+        ]
+    }
 ]
